@@ -1,0 +1,317 @@
+body{
+    margin: 0%;
+    padding:0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.Izquierda{
+    background-color: #E9E9E9;
+    height: 100vh;
+    width: 50%;
+}
+a{
+    z-index: 10;
+}
+.Derecha{
+    background-image: linear-gradient(#000000, #31313170);
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+#Pantalla {
+    display: flex;
+}
+.Creative{
+    display: flex;
+    margin-top: -25px;
+    position: relative;
+    color: #ff7b03;
+    width: 50%;
+    font-size: 170px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.Creativo{
+    display: flex;
+    font-size: 110px;
+    margin-left: 10%;
+    margin-top: -25px;
+    font-weight: bold;
+}
+h1{
+    font-size: 60px;
+    margin: auto;
+    font-weight: bold;
+}
+.pizquierdo{
+    display: flex;
+    margin-top: 4%;
+    font-size: 30px;
+    width: 60%;
+    margin-left: 10%;
+    line-height: 30px;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+}
+.letras-{
+    margin-left: 170px;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.PDerecho{
+    display: flex;
+    margin-top: 13px;
+    font-size: 22px;
+    width: 60%;
+    line-height: 22px;
+    margin-left: 33%;
+    color: white;
+    word-spacing: normal;
+    margin-top: 60px;
+}
+.menu{
+    position: relative;
+    text-decoration: none;
+    color: #ff7b03;
+    font-weight: bold;
+    font-size: 20px;
+    right: 60px;
+}
+
+.icono{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 400px;
+}
+.iconor{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+
+}
+#sidebar{
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    right: -100px;
+    background-image: linear-gradient(#000000, #31313170);
+    border-left: 0.5px solid rgb(255, 255, 255);
+    text-align: center;
+    transition: all 500ms linear;
+    z-index: 5;
+}
+#sidebar.activate{
+    right: 200px;
+}
+#sidebar .toggle-btn{
+    position: absolute;
+    right: 120px;
+    cursor: pointer;
+    top: 12px;
+    color: white;
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #ffffff;
+}
+.Orange{
+    color: white;
+}
+.Logo{
+    display: flex;
+    padding: 20px;
+
+}
+.h1Derecha{
+    display: flex;
+    /* transform: rotate(90deg); */
+    background: linear-gradient(#00000063,#000000,#000000,#ffffffbf);
+    width: 70%;
+    height: 100vh;
+    font-size: 100px;
+    margin-left: 35%;
+    margin-top: 20%;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    line-height: 95px;
+}
+.bici-container{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    translate: (-500%,-500%);
+    z-index: 5;
+    -webkit-box-reflect: right,10px,linear-gradient(transparent,rgba(255, 255, 255, 0.4));
+}
+.Centro{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 24%;
+    height: 60%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    background-color: #c6c6c6;
+    top: 43%;
+    left: 38%;
+    z-index: 4;
+}
+.w-100_bg-black_py-3{
+    background-color: #0d0d0d;
+}
+.logo{
+height: 35px;
+}
+.Carro{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+    top: 83%;
+    left: 20%;
+    width: 165px;
+    height: 51px;
+    z-index: 9;
+    
+}
+.Favorito{
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    top: 83%;
+    left: 70%;
+    width: 45px;
+    height: 45px;
+    z-index: 9;
+}
+.segundo{
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url("https://c.wallhere.com/photos/fe/fb/1366x768_px_mountain_Bikes-530494.jpg!d");
+    min-height: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.img1{
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("IMG/Nissi\ Landing\ Page\ Mockps\ \(1\).png");
+}
+.car1{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+    top: -1800%;
+    left: 24%;
+}
+.carp1{
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    width: 70%;
+    line-height: 25px;
+    color: white;
+    word-spacing: normal;
+    font-weight: bold;
+    top: -1051%;
+    left: 15%;
+}
+.boton1{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    background-color: #000000;
+    border-radius: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    top: -250%;
+    left: 42%;
+    width: 160px;
+    height: 50px;
+    z-index: 6;
+}
+.car2{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+    top: -2200%;
+    left: 15%;
+}
+.carp2{
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    width: 70%;
+    line-height: 25px;
+    color: white;
+    word-spacing: normal;
+    font-weight: bold;
+    top: -1251%;
+    left: 15%;
+}
+.car3{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+    top: -1800%;
+    left: 15%;
+}
+.carp3{
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    width: 70%;
+    line-height: 25px;
+    color: white;
+    word-spacing: normal;
+    font-weight: bold;
+    top: -1051%;
+    left: 15%;
+}
+.boton3{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    background-color: #ff7b03;
+    border-radius: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    top: -250%;
+    left: 42%;
+    width: 160px;
+    height: 50px;
+    z-index: 6;
+}
+.carousel-control-next-icon{
+    color: #ff7b03;
+}
+.img1{
+    filter: brightness(50%);
+}
